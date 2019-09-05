@@ -22,8 +22,6 @@ void DFS(int v,int n, bool arr[][1001]) {
 		for (int i = n; i > 0; i--) {
 			if (arr[r][i]) {
 				s.push(i);
-				//arr[r][i] = false;
-				//arr[i][r] = false;
 			}
 		}
 
@@ -55,8 +53,6 @@ void BFS(int v,int n, bool arr[][1001]) {
 		for (int i = 1; i <= n; i++) {
 			if (arr[r][i]) {
 				q.push(i);
-				//arr[r][i] = false;
-				//arr[i][r] = false;
 			}
 		}
 
@@ -101,3 +97,7 @@ int main() {
 
 	return 0;
 }
+
+/*
+N*N 으로 표시하지않고 vector로 각 노드마다 인접 node 저장
+*/
