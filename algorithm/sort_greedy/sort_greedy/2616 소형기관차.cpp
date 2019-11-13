@@ -1,57 +1,28 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
+
 int arr[50005];
-int sum[50005];
-int dp[50005];
+int dp[4][50005];
 int main() {
 	int n, m;
-	cin >> n;
-	//int *arr = new int[n+5];
-	//int *sum = new int[n+5];
+	cin >> n;//전체 객차 수
 	for (int i = 1; i <= n; i++) {
-		cin >> arr[i];
-		
+		int tmp;
+		cin >> tmp;
+		arr[i] = arr[i - 1] + tmp;//객차마다 손님 누적합!! -> [i] - [i-m] 으로 소형차가 끄는 객차의 승객수 쉽게 구할 수 있음
 	}
-	cin >> m;
+	cin >> m;//소형기관차당 끌 수 있는 최대 객차 수
 
-
-	for (int i = 1; i <= 3*m; i++) {
-		dp[i] += arr[i] + dp[i - 1];
-	}
-
-	for (int i = m; i <= n; i++) {
-		sum[i] = 0;
-		for (int s = 0; s < m; s++) {
-			sum[i] += arr[i - s];
-		}
-	}
-	
-	for (int i = 3*m + 1; i <= n; i++) {
-		dp[i] = dp[i - 1];
-
-		int max = 0;
-		for (int j = i - m; j>=2*m ; j--) {
-			for (int k = j - m; k >=m; k--) {
-				if (max < sum[i] + sum[j] + sum[k]) {
-					max = sum[i] + sum[j] + sum[k];
-				}
-			}
-		}
-
-		if (max > dp[i]) {
-			dp[i] = max;
+	for (int i = 1; i <= 3; i++) { //첫번째 소형차 i=1, 두번째 소형차 i=2, 세번째 소형차 i=3
+		for (int j = i * m; j <= n; j++) {
+			dp[i][j] = max(dp[i][j - 1], arr[j] - arr[j - m] + dp[i - 1][j - m]);
+			/*첫번째 소형차가 끌 수 있는 객차의 최대 승객수 각각 j번째까지
+			그 이후에 두번째 소형차는 첫번째 소형차가 끈 j 이후부터 , 세번째는 두번째가 끈 이후부터*/
 		}
 	}
 
-	
-	int max = 0;
-	for (int i = 1; i <= n; i++) {
-		if (max < dp[i]) {
-			max = dp[i];
-		}
-	}
-
-	cout <<max;
+	cout << dp[3][n];
 
 	return 0;
 }
@@ -61,5 +32,7 @@ int main() {
 그것보다 작을 수도 있음 고려해야함
 
 그렇지만 계속 런타임 에러가 뜬다.
+
+=> 런타임에러에서 수정돼서 시간초과
 */
 

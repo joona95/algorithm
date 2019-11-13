@@ -84,5 +84,17 @@
     <ClCompile Include="16358 Cosmetic Survey.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2512 예산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2613 숫자구슬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3020 개똥벌레.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1753 최단경로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
