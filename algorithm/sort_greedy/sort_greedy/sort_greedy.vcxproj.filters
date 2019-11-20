@@ -96,5 +96,14 @@
     <ClCompile Include="1753 최단경로.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17383 옥토끼는 통신교육을 풀어라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7576 토마토.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2178 미로 탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
