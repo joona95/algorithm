@@ -120,16 +120,19 @@
     <ClCompile Include="1197 최소 스패닝 트리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="04-2548.cpp">
+    <ClCompile Include="01-2475 검증수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="01-2475.cpp">
+    <ClCompile Include="02-2495 연속구간.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="03-17305.cpp">
+    <ClCompile Include="03-17305 사탕 배.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="02-2495.cpp">
+    <ClCompile Include="04-2548 대표 자연수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1486 등산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
