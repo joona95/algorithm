@@ -8,12 +8,12 @@ using namespace std;
 
 vector<pair<int,int>> vec[100001];
 int depth[100001];
-int par[18][100001];
+int par[20][100001];
+int dmin[20][100001];
+int dmax[20][100001];
 bool visit[100001];
-int dmax[18][100001];
-int dmin[18][100001];
 
-int min(int a,int b) {
+int min(int a, int b) {
 	if (a > b)
 		return b;
 	else
@@ -38,10 +38,10 @@ int main() {
 		vec[b].push_back(make_pair(a,c));
 	}
 
-	for (int i = 0; i <= 17; i++) {
-		for (int j = 1; j <= n; j++) {
-			dmax[i][j] = 0;
-			dmin[i][j] = 1000001;
+	for (int k = 0; k < 20; k++) {
+		for (int i = 0; i <= n; i++) {
+			dmin[k][i] = 100001;
+			dmax[k][i] = 0;
 		}
 	}
 
@@ -60,38 +60,43 @@ int main() {
 				q.push(vec[v][i].first);
 				depth[vec[v][i].first] = depth[v] + 1;
 				par[0][vec[v][i].first] = v;
-				dmax[0][vec[v][i].first] = vec[v][i].second;
 				dmin[0][vec[v][i].first] = vec[v][i].second;
+				dmax[0][vec[v][i].first] = vec[v][i].second;
 			}
 		}
 	}
 
-	for (int i = 1; i <= 17; i++) {
-		for (int j = 1; j <= n; j++) {
-			par[i][j] = par[i - 1][par[i - 1][j]];
-			dmax[i][j] = max(dmax[i-1][j],dmax[i-1][par[i-1][j]]);
-			dmin[i][j] = min(dmin[i-1][j],dmin[i-1][par[i-1][j]]);
+	for (int k = 1; k < 20; k++) {
+		for (int i = 1; i <= n; i++) {
+			par[k][i] = par[k - 1][par[k - 1][i]];
+			dmin[k][i] = min(dmin[k-1][i],dmin[k-1][par[k-1][i]]);
+			dmax[k][i] = max(dmax[k-1][i],dmax[k-1][par[k-1][i]]);
 		}
 	}
 
-
-
 	/*
-	for (int i = 1; i <= n; i++)
-		printf("%d ", dmax[0][i]);
-	printf("\n");
-	for (int i = 1; i <= n; i++)
-		printf("%d ", dmin[0][i]);
-		*/
+	for (int k = 0; k < 20; k++) {
+		for (int i = 1; i <= n; i++) {
+			printf("%d ", dmin[k][i]);
+		}
+		printf("\n");
+	}
+	printf("\n***\n");
+	for (int k = 0; k < 20; k++) {
+		for (int i = 1; i <= n; i++) {
+			printf("%d ", dmax[k][i]);
+		}
+		printf("\n");
+	}*/
 
-	int k;
-	scanf("%d", &k);
-	for (int i = 0; i < k; i++) {
+
+	int K;
+	scanf("%d", &K);
+	for (int i = 0; i < K; i++) {
 		int d, e;
 		scanf("%d%d", &d, &e);
 
-		int min_v=1000001, max_v = -1;
-
+		int min_v = 1000001, max_v = -1;
 
 		if (depth[d] < depth[e]) {
 			int tmp = d;
@@ -99,24 +104,34 @@ int main() {
 			e = tmp;
 		}
 
-		//
+		int diff = depth[d] - depth[e];
+		int kk = 0;
+		while (diff >= 1) {
+			if (diff % 2 == 1) {
+				min_v = min(min_v, dmin[kk][d]);
+				max_v = max(max_v, dmax[kk][d]);
+				d = par[kk][d];
+			}
+			diff /= 2;
+			kk++;
+		}
 
-		for (int j = 17; j >= 0 && d != e; j--) {
-			if (par[j][d] != par[j][e]) {
-				min_v = min(min_v, min(dmin[j][d], dmin[j][e]));
-				max_v = max(max_v, max(dmax[j][d], dmax[j][e]));
-				d = par[j][d];
-				e = par[j][e];
+		for (int k = 19; k >= 0&&d!=e; k--) {
+			if (par[k][d] != par[k][e]) {
+				min_v = min(min_v, min(dmin[k][d], dmin[k][e]));
+				max_v = max(max_v, max(dmax[k][d], dmax[k][e]));
+				d = par[k][d];
+				e = par[k][e];
 			}
 		}
+		
 
 		if (d != e) {
 			min_v = min(min_v, min(dmin[0][d], dmin[0][e]));
 			max_v = max(max_v, max(dmax[0][d], dmax[0][e]));
 		}
-
 		printf("%d %d\n", min_v, max_v);
-
+		
 	}
 
 
