@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 
 int program(int n, int k){
@@ -18,7 +18,7 @@ int main(){
 	int result = program(n,k);
 	printf("%d\n",result);
 }
-*/
+
 
 
 /*

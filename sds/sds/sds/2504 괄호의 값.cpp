@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 #include <cstring>
 #include <stack>
@@ -136,7 +136,7 @@ int main(){
 	
 	return 0;
 }
-*/
+
 
 //예외 처리에서 문제생김 
 /*

@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 
 int dp[201][201];
@@ -72,7 +72,7 @@ int main(){
 	dictionary(n+m, m, k);
 	
 	return 0;
-}*/
+}
 
 
 /*

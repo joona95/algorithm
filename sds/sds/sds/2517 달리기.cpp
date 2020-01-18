@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 #include <utility>
 using namespace std;
@@ -77,7 +77,7 @@ int main(){
 	
 	return 0;
 } 
-*/
+
 
 //pair사용하여 idx저장해야함
  

@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 
 bool arr[1000001];
@@ -57,5 +57,5 @@ int main(){
 	
 	return 0;
 }
-*/
+
 

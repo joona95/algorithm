@@ -15,148 +15,214 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="8.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="16.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="17.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1735.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14476.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="3955 캔디분배.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="9202 Boggle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="23.cpp">
+    <ClCompile Include="3425 고스택.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="24.cpp">
+    <ClCompile Include="3055 탈출.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="25.cpp">
+    <ClCompile Include="1713 후보추천하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="26.cpp">
+    <ClCompile Include="2003 수들의 합2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="27.cpp">
+    <ClCompile Include="2805 나무자르기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="28.cpp">
+    <ClCompile Include="2748 피보나치수2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="29.cpp">
+    <ClCompile Include="1806 부분합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="30.cpp">
+    <ClCompile Include="2517 달리기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="31.cpp">
+    <ClCompile Include="2143 두배열의합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="32.cpp">
+    <ClCompile Include="2504 괄호의 값.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="33.cpp">
+    <ClCompile Include="1927 최소힙.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="34.cpp">
+    <ClCompile Include="11279 최대힙.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="35.cpp">
+    <ClCompile Include="2042 구간 합 구하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="36.cpp">
+    <ClCompile Include="2243 사탕상자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="37.cpp">
+    <ClCompile Include="6588 골드바흐의 추측.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="38.cpp">
+    <ClCompile Include="1837 암호제작.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="39.cpp">
+    <ClCompile Include="2960 에라토스테네스의 체.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="40.cpp">
+    <ClCompile Include="11050 이항 계수1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="41.cpp">
+    <ClCompile Include="11051 이항계수2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="42.cpp">
+    <ClCompile Include="1010 다리놓기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="43.cpp">
+    <ClCompile Include="1256 사전.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="44.cpp">
+    <ClCompile Include="1722 순열의 순서.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="45.cpp">
+    <ClCompile Include="10828 스택.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="46.cpp">
+    <ClCompile Include="10845 큐.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="47.cpp">
+    <ClCompile Include="1717 집합의 표현.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="48.cpp">
+    <ClCompile Include="11653 소인수분해.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="49.cpp">
+    <ClCompile Include="2252 줄세우기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1991 트리 순회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5568 카드 놓기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1922 네트워크 연결.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11438 LCA2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3176 도로 네트워크.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1753 최단경로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11266 단절점.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11400 단절선.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1626 두번째로 작은 스패닝 트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1932 정수 삼각형.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11659 구간합구하기4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11660 구간합구하기5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2579 계단오르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1915 가장 큰 정사각형.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11049 행렬 곱셈 순서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14003 가장 긴 증가하는 부분 수열5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1735 부분합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14476 최대공약수 하나 빼.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11657 타임머신.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3860 할로윈 묘지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3830 교수님은 기다리지 않는다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1854 K번째 최단경로 찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5719 거의 최단 경로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11404 플로이드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2458 키순서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1516 게임개발.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1062 가르침.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11062 카드 게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14002 가장 긴 증가하는 부분 수열 4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14003 가장 긴 증가하는 부분 수열 5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2449 전구.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2618 경찰차.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5582 공통 부분 문자열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5626 제단.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7579 앱.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9252 LCS2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1102 발전소.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2098 외판원 순회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2342 Dance Dance Revolution.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7578 공장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10714 케이크 자르기2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

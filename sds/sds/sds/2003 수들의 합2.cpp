@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 
 int A[10005];
@@ -59,7 +59,7 @@ int main(){
 	printf("%d", count);
 	
 	return 0;
-}*/
+}
 
 //슬라이딩 윈도우:O(n)
 //while문에 true 넣고 탈출조건 따로 주기 추천 

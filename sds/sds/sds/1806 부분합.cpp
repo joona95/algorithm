@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 
 int arr[100005];
@@ -60,7 +60,7 @@ int main(){
 	
 	return 0;
 }
-*/
+
 
 //그 합이 S'이상'이 되는 것 중~ 
 

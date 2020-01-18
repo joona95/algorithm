@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 #include <cmath>
 
@@ -108,7 +108,7 @@ int main() {
 
 	}
 }
-*/
+
 
 
 //»çÅÁ »óÀÚ

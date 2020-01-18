@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 
 int dp[31][31];
@@ -44,6 +44,6 @@ int main(){
 	
 	return 0;
 }
-*/
+
 
 //mCn ±¸ÇÏ±â 

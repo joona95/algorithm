@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 
 int tree[1000005];
@@ -49,7 +49,7 @@ int main(){
 	
 	return 0;
 } 
-*/
+
 
 /*
 4 7

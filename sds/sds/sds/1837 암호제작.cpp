@@ -1,5 +1,5 @@
 
-/*
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -67,7 +67,7 @@ int main(){
 	
 	return 0;
 } 
-*/
+
 
 /*
 숫자를 char로 표현

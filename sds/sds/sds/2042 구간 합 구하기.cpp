@@ -1,4 +1,4 @@
-/*
+
 #include <cstdio>
 #include <cmath>
 
@@ -103,7 +103,7 @@ int main(){
 	
 	return 0;
 }
-*/
+
 
 //makeTree(iny node, int left, int right)
 //update(int node,int left, int right, int targetIndex, long diff)
