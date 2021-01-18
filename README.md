@@ -1,2 +1,2 @@
-# baekjoon
-백준 문제풀이
+# Algorithm
+알고리즘 문제풀이
