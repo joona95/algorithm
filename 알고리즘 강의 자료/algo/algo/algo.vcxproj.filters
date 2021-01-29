@@ -15,40 +15,64 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6996 애너그램.cpp">
+    <ClCompile Include="2557 Hello World.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2752 세수정렬.cpp">
+    <ClCompile Include="10950 A+B-3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2792 보석 상자.cpp">
+    <ClCompile Include="10951 A+B-4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2822 점수 계산.cpp">
+    <ClCompile Include="10952 A+B-5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1205 등수 구하기.cpp">
+    <ClCompile Include="10953 A+B-6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="5576 콘테스트.cpp">
+    <ClCompile Include="11021 A+B-7.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="11728 배열합치기.cpp">
+    <ClCompile Include="11022 A+B-8.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="11652 카드.cpp">
+    <ClCompile Include="1924 2007년.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1431 시리얼 번호.cpp">
+    <ClCompile Include="2438 별 찍기-1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2776 암기왕.cpp">
+    <ClCompile Include="2439 별 찍기-2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3079 입국심사.cpp">
+    <ClCompile Include="2440 별 찍기-3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7453 합이 0인 네 정수.cpp">
+    <ClCompile Include="2441 별 찍기-4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2442 별 찍기-5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2443 별 찍기-6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2444 별 찍기-7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2445 별 찍기-8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2446 별 찍기-9.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2522 별 찍기-12.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10991 별 찍기-16.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10992 별 찍기-17.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
