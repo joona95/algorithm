@@ -51,5 +51,8 @@
     <ClCompile Include="7453 합이 0인 네 정수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1744 수 묶기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
