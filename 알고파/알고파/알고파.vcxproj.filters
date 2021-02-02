@@ -69,5 +69,11 @@
     <ClCompile Include="1788 피보나치 수의 확장.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13301 타일 장식물.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1965 상자넣기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
