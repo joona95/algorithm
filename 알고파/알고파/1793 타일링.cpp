@@ -7,62 +7,44 @@
 
 using namespace std;
 
-string dp[251];
-char c[1001];
-
-string add(string a, string b) {
-	const char* c1 = a.c_str();
-	const char* c2 = b.c_str();
-
-	int length1 = a.length()-1;
-	int length2 = b.length()-1;
-
-	for (int i = 0; i < 1001; i++) {
-		c[i] = 0;
-	}
-
-	int idx = 0;
-	while (length1 >= 0 && length2 >= 0) {
-		int n1 = c1[length1] - '0';
-		int n2 = c2[length2] - '0';
-		printf("%d %d\n", n1, n2);
-
-		int n=0;
-		if (c[idx] != 0) {
-			n = c[idx] - '0';
-		}
-		c[idx] = ((n + n1 + n2) % 10) + '0';
-		n = 0;
-		if (c[idx+1] != 0) {
-			n = c[idx+1] - '0';
-		}
-		c[idx + 1] = ((n+n1 + n2) / 10) + '0';
-		//printf("%c %c\n", c[idx], c[idx + 1]);
-
-		length1--;
-		length2--;
-		idx++;
-	}
-
-	string result(c);
-
-	reverse(result.begin(), result.end());
-
-	return result;
-
-}
 
 int main() {
 	int n;
 	while (scanf("%d", &n)!=EOF) {
-		dp[1] = "1";
-		dp[2] = "3";
+		vector<int> dp[251];
+		
+		dp[0].push_back(1);
+		dp[1].push_back(1);
+		dp[2].push_back(3);
 
 		for (int i = 3; i <= n; i++) {
-			dp[i] = add(dp[i - 1], add(dp[i - 2], dp[i - 2]));
+			int carry = 0;
+			for (int j = 0; j < dp[i - 2].size(); j++) {
+				int sum = dp[i - 2][j] * 2 + dp[i - 1][j] + carry;
+				if (sum < 10) {
+					dp[i].push_back(sum);
+					carry = 0;
+				}
+				else {
+					carry = sum / 10;
+					sum = sum % 10;
+					dp[i].push_back(sum);
+					if (j == dp[i - 2].size() - 1) {
+						if (dp[i - 1].size() > dp[i - 2].size()) {
+							dp[i].push_back(carry + dp[i - 1][j + 1]);
+						}
+						else {
+							dp[i].push_back(carry);
+						}
+					}
+				}
+			}
 		}
 
-		printf("%s\n", dp[n].c_str());
+		for (int i = dp[n].size() - 1; i >= 0; i--) {
+			printf("%d", dp[n][i]);
+		}
+		printf("\n");
 	}
 
 	return 0;
@@ -70,4 +52,7 @@ int main() {
 
 /*
 long long으로도 범위 커버가 안돼서 string 변환 필요
+string 변환 너무 힘들어 -> vector<int> 배열로 바꿈
+
+아무것도 안하는 경우도 1가지
 */
