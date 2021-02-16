@@ -16,29 +16,35 @@ int main() {
 	}
 
 	sort(f, f + n);
+	f[n] = 100000001;
 
-	int answer = 0;
-	for (int i = 0; i < n; i++) {
-		int s = i+1, e = n - 1;
-		
-		while (s <= e) {
-			
+	long long answer = 0;
+	for (int i = 0; i < n - 1; i++) {
+		int s = i, e = n;
+
+		while (s < e) {
 			int mid = (s + e) / 2;
 
-			if ((float)f[i] >= 0.9f * (float)f[mid]) {
+			if (f[i] >= 0.9 * f[mid]) {
 				s = mid + 1;
-				//printf("1) %d: %d %d\n", i, s, e);
+
 			}
 			else {
-				e = mid - 1;
-				//printf("2) %d: %d %d\n", i, s, e);
+				e = mid;
+
 			}
 		}
-		//printf("s:%d e:%d i:%d\n", s, e, i);
-		answer += e - i;
+
+		answer += e - 1 - i;
 	}
 
-	printf("%d", answer);
+	printf("%lld\n", answer);
 
 	return 0;
 }
+
+/*
+답이 long long 자료형
+upper bound 문제
+>= 비교할 때 부동소수점 f 붙이면 틀렸다고 뜬다. 부동소수점 비교가 제대로 안되나봄.
+*/
