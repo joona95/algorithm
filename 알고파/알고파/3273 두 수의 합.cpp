@@ -25,7 +25,7 @@ int main() {
 		int s = i+1, e = n-1;
 
 		while (s<=e) {
-			printf("%d %d %d\n", i, s, e);
+			//printf("%d %d %d\n", i, s, e);
 			int mid = (s + e) / 2;
 
 			if (a[i] + a[mid] == x) {

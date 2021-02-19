@@ -138,5 +138,8 @@
     <ClCompile Include="3273 두 수의 합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17164 Rainbow Beads.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
