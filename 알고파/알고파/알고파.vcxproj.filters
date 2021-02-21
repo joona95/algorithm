@@ -141,5 +141,11 @@
     <ClCompile Include="17164 Rainbow Beads.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2725 보이는 점의 개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12891 DNA 비밀번호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
