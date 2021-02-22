@@ -147,5 +147,11 @@
     <ClCompile Include="12891 DNA 비밀번호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="18352 특정 거리의 도시 찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2178 미로 탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
