@@ -153,5 +153,8 @@
     <ClCompile Include="2178 미로 탐색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1916 최소비용 구하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
