@@ -168,5 +168,11 @@
     <ClCompile Include="1058 친구.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11723 집합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12813 이진수 연산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
