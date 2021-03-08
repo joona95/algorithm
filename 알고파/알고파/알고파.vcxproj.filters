@@ -177,5 +177,23 @@
     <ClCompile Include="11675 Jumbled Communication.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1260 DFS와 BFS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1012 유기농배추.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11724 연결 요소의 개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2667 단지번호붙이기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6603 로또.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7562 나이트의 이동.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
