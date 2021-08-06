@@ -24,5 +24,11 @@
     <ClCompile Include="1062 가르침.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2501 약수 구하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3460 이진수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
