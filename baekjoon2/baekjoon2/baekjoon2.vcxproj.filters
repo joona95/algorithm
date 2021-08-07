@@ -30,5 +30,8 @@
     <ClCompile Include="3460 이진수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10818 최소, 최대.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
