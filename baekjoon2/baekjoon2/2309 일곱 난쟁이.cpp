@@ -19,6 +19,7 @@ int Solution(int* arr) {
 			}
 		}
 	}
+	return -1;
 }
 
 int main() {
