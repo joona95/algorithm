@@ -10,6 +10,7 @@ int op[4];
 int min = 1000000001;
 int max = -1000000001;
 
+//분리하는건 좋은데 함수 안에서 함수를 또 부르니까 속도는 0ms->4ms로 느려지긴 함..
 int caculator(int operation, int num1, int num2) {
 	if (operation == 0) {
 		return num1 + num2;
